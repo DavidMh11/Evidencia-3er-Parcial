@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Directorio de empresas</string>
+    <string name="txtname">Nombre:</string>
+    <string name="txtusername">Usuario:</string>
+    <string name="txtemail">Email:</string>
+    <string name="txtphone">Teléfono:</string>
+    <string name="txtwebsite">Sitio web:</string>
+    <string name="txtcompany">Compañia:</string>
+    <string name="txtaddress">Dirección:</string>
+    <string name="txtzipcode">Código postal:</string>
+</resources>

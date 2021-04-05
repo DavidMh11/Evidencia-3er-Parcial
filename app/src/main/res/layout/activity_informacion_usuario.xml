@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgID"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/user" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtname" />
+
+                <TextView
+                    android:id="@+id/txtUser"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtname"
+                    android:padding="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dp"
+                android:layout_marginLeft="70dp"
+                android:background="@color/black" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtusername" />
+
+                <TextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtusername"
+                    android:padding="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dp"
+                android:layout_marginLeft="70dp"
+                android:background="@color/black" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtemail" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtemail"
+                    android:padding="15dp" />
+            </TableRow>
+
+
+            <View
+                android:layout_height="2dp"
+                android:layout_marginLeft="70dp"
+                android:background="@color/black" />
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtwebsite" />
+
+                <TextView
+                    android:id="@+id/txtWebsite"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtwebsite"
+                    android:padding="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dp"
+                android:layout_marginLeft="70dp"
+                android:background="@color/black" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtcompany" />
+
+                <TextView
+                    android:id="@+id/txtCompany"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtcompany"
+                    android:padding="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtaddress" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtaddress"
+                    android:padding="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtzipcode" />
+
+                <TextView
+                    android:id="@+id/txtZipCode"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtzipcode"
+                    android:padding="15dp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dp"
+                android:layout_marginLeft="70dp"
+                android:background="@color/black" />
+
+            <TableRow>
+
+                <ImageButton
+                    android:id="@+id/btnLlamar"
+                    android:layout_height="fill_parent"
+                    android:layout_width="55dp"
+                    android:layout_gravity="center"
+                    android:background="@color/teal_700"
+                    android:padding="10dp"
+                    app:srcCompat="@android:drawable/ic_menu_call" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="2"
+                    android:padding="15dp"
+                    android:text="@string/txtphone" />
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="240dp"
+                    android:layout_height="fill_parent"
+                    android:hint="@string/txtphone"
+                    android:padding="15dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
